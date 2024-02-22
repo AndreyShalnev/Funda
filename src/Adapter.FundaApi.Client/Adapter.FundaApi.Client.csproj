@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
-    <ProjectReference Include="..\src\FundaApi.Client\FundaApi.Client.csproj" />
+    <ProjectReference Include="..\FundaApi.Client\FundaApi.Client.csproj" />
   </ItemGroup>
 
 </Project>
