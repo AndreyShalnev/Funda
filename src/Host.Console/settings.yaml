@@ -1,0 +1,10 @@
+FundaApi:
+  BaseUri: "https://partnerapi.funda.nl/feeds/Aanbod.svc/json/"
+  AccessKey: ""
+  PageSize: 25
+  FixedWindowRateLimiterOptions:
+    QueueProcessingOrder: OldestFirst
+    QueueLimit: 200
+    PermitLimit: 100
+    Window: "00:01:00"
+    AutoReplenishment: true
